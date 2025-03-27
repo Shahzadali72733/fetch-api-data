@@ -2,23 +2,24 @@
 .main-container{
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 .data-boxes {
   display: flex;
   flex-wrap: wrap;
-  width: 87%;
-  margin: auto;
+  width: 1180px;
+  justify-content: center; 
   gap: 10px;
-  margin-bottom: 10px;
+  
 }
-h1{
+.main-container h1 {
   text-align: center;
 }
 .record-style{
   border: 1px solid #ccc;
   border-radius: 8px;
   padding: 10px;
-  width: 200px;
+  width: 250px;
   text-align: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -32,10 +33,27 @@ h1{
     
 }
 .view-data{
-    margin: auto;
+    margin: 10px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 8px;
     background: #f9f9f9;
-    width: 50%;
+    width: 1180px;
+    height: 200px;
+} 
+.selected-rec{
+  display: flex;
+  justify-content: center;
+}
+h3{
+  font-size: 20px;
+}
+p{
+  font-size: 16px;
+  line-height: 30px;
+}
+.filter-data {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
 }
