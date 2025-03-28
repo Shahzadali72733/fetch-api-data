@@ -27,7 +27,7 @@ const PostJob = () =>
         <option selected>1</option>
       </select>
     </div>
-          </div>
+  </div>
   
   <div class="form-group col-md-6">
     <label for="inputAddress">Address</label>

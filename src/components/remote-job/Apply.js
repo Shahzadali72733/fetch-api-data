@@ -84,7 +84,7 @@ function Apply() {
                   <p>Perform 4 Steps to Apply</p>
                 </div>
                 
-                {/* Step indicators */}
+               
                 <div className={`numbers step-line step-${step}`}>
                   {[...Array(messages.length)].map((_, i) => (
                     <div key={i} className={step >= i + 1 ? "active" : ""}>
